@@ -6,7 +6,7 @@
     "UniqueID": "shidouuu.svosmapi",
     "EntryDll": "svosmapi.dll",
     "MinimumApiVersion": "3.0.0",
-    "UpdateKeys": [],
+    "UpdateKeys": [ "Shidouuu/svosmapi" ],
     "Dependencies": [
       { "UniqueID": "Pathoschild.ContentPatcher", "MinimumVersion": "1.29.0" }
     ]
