@@ -1,0 +1,5262 @@
+{
+    "Abigail": {
+        "Abigail_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Abigail_Fall_Indoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Abigail_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Fall_Indoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Abigail_Fall_Outdoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Abigail_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Fall_Outdoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Abigail_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Abigail_Spring_Indoor_Rain_4": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Abigail_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Spring_Indoor_Sun_4": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Abigail_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Abigail_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Abigail_Spring_Outdoor_Rain_4": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Abigail_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Spring_Outdoor_Sun_4": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Abigail_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Abigail_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Abigail_Summer_Indoor_Rain_4": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Abigail_Summer_Indoor_Rain_5": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "5"
+        },
+        "Abigail_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Summer_Indoor_Sun_4": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Abigail_Summer_Indoor_Sun_5": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "5"
+        },
+        "Abigail_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Abigail_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Abigail_Summer_Outdoor_Rain_4": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Abigail_Summer_Outdoor_Rain_5": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "5"
+        },
+        "Abigail_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Summer_Outdoor_Sun_4": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Abigail_Summer_Outdoor_Sun_5": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "5"
+        },
+        "Abigail_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Abigail_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Abigail_Winter_Indoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Abigail_Winter_Indoor_Snow_4": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "4"
+        },
+        "Abigail_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Winter_Indoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Winter_Indoor_Sun_4": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Abigail_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Abigail_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Abigail_Winter_Outdoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Abigail_Winter_Outdoor_Snow_4": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "4"
+        },
+        "Abigail_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Abigail_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Abigail_Winter_Outdoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Abigail_Winter_Outdoor_Sun_4": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        }
+    },
+    "Alex": {
+        "Alex_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Alex_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Alex_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Alex_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Alex_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Alex_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Alex_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Alex_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Alex_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Alex_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Alex_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Alex_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Alex_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Alex_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Alex_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Alex_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Alex_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Alex_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Alex_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Alex_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Alex_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Alex_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Alex_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Alex_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Alex_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Alex_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Alex_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Alex_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Caroline": {
+        "Caroline_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Caroline_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Caroline_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Caroline_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Caroline_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Caroline_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Caroline_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Caroline_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Caroline_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Caroline_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Caroline_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Caroline_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Caroline_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Caroline_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Caroline_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Caroline_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Caroline_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Caroline_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Caroline_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Caroline_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Caroline_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Caroline_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Caroline_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Caroline_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Caroline_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Caroline_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Caroline_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Caroline_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Caroline_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Caroline_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Caroline_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Caroline_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Clint": {
+        "Clint_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Clint_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Clint_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Clint_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Clint_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Clint_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Clint_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Clint_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Clint_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Clint_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Clint_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Clint_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Clint_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Clint_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Clint_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Clint_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Clint_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Clint_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Clint_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Clint_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Clint_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Clint_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Clint_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Clint_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Clint_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Clint_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Clint_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Clint_Winter_Outdoor_sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": null
+        }
+    },
+    "Demetrius": {
+        "Demetrius_Fall_Indoor_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": null,
+            "#": null
+        },
+        "Demetrius_Fall_Indoor_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": null,
+            "#": null
+        },
+        "Demetrius_Fall_Outdoor_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": null
+        },
+        "Demetrius_Fall_Outdoor_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": null
+        },
+        "Demetrius_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Demetrius_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Demetrius_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Demetrius_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Demetrius_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Demetrius_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Demetrius_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Demetrius_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Demetrius_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Demetrius_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Demetrius_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Demetrius_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Demetrius_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Demetrius_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Demetrius_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Demetrius_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Demetrius_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Demetrius_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Demetrius_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Demetrius_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Demetrius_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Demetrius_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Demetrius_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Demetrius_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        }
+    },
+    "Elliott": {
+        "Elliott_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Elliott_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Elliott_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Elliott_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Elliott_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Elliott_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Elliott_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Elliott_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Elliott_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Elliott_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Elliott_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Elliott_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Elliott_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Elliott_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Elliott_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Elliott_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Elliott_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Elliott_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Elliott_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Elliott_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Elliott_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Elliott_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Elliott_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Elliott_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Emily": {
+        "Emily_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Emily_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Emily_Fall_Indoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Emily_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Fall_Indoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Emily_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Emily_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Emily_Fall_Outdoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Emily_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Fall_Outdoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Emily_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Emily_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Emily_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Emily_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Emily_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Emily_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Emily_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Emily_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Emily_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Emily_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Emily_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Emily_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Emily_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Emily_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Emily_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Emily_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Emily_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Emily_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Emily_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Emily_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Emily_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Emily_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Emily_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        }
+    },
+    "Evelyn": {
+        "Evelyn_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Evelyn_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Evelyn_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Evelyn_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Evelyn_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Evelyn_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Evelyn_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Evelyn_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Evelyn_Summer_Indoor_Rain_Blue": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Blue"
+        },
+        "Evelyn_Summer_Indoor_Rain_Pink": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Pink"
+        },
+        "Evelyn_Summer_Indoor_Sun_Blue": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Blue"
+        },
+        "Evelyn_Summer_Indoor_Sun_Pink": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Pink"
+        },
+        "Evelyn_Summer_Outdoor_Rain_Blue": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Blue"
+        },
+        "Evelyn_Summer_Outdoor_Rain_Pink": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Pink"
+        },
+        "Evelyn_Summer_Outdoor_Sun_Blue": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Blue"
+        },
+        "Evelyn_Summer_Outdoor_Sun_Pink": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Pink"
+        },
+        "Evelyn_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Evelyn_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Evelyn_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Evelyn_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Festivals": {},
+    "George": {
+        "George_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "George_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "George_Fall_Rain": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "George_Spring_Rain": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "George_Spring_Sun": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "George_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "George_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "George_Summer_Rain": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "George_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "George_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "George_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "George_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Gunther": {
+        "Gunther_Fall_Base": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Gunther_Spring_Base": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Gunther_Summer_Base": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Gunther_Winter_Base": {
+            "Season": "Winter",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        }
+    },
+    "Gus": {
+        "Gus_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Gus_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Gus_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Gus_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Gus_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Gus_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Gus_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Gus_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Gus_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Gus_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Gus_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Gus_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Gus_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Gus_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Gus_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Gus_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Gus_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Gus_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Gus_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Gus_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Haley": {
+        "Haley_Fall_Indoor_Rain_Down_Blue": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Down"
+        },
+        "Haley_Fall_Indoor_Rain_Down_Red": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Down"
+        },
+        "Haley_Fall_Indoor_Rain_Updo_Blue": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Updo"
+        },
+        "Haley_Fall_Indoor_Rain_Updo_Red": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Updo"
+        },
+        "Haley_Fall_Indoor_Sun_Down_Blue": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Down"
+        },
+        "Haley_Fall_Indoor_Sun_Down_Red": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Down"
+        },
+        "Haley_Fall_Indoor_Sun_Updo_Blue": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Updo"
+        },
+        "Haley_Fall_Indoor_Sun_Updo_Red": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Updo"
+        },
+        "Haley_Fall_Outdoor_Rain_Down_Blue": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Down"
+        },
+        "Haley_Fall_Outdoor_Rain_Down_Red": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Down"
+        },
+        "Haley_Fall_Outdoor_Rain_Updo_Blue": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Updo"
+        },
+        "Haley_Fall_Outdoor_Rain_Updo_Red": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Updo"
+        },
+        "Haley_Fall_Outdoor_Sun_Down_Blue": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Down"
+        },
+        "Haley_Fall_Outdoor_Sun_Down_Red": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Down"
+        },
+        "Haley_Fall_Outdoor_Sun_Updo_Blue": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Updo"
+        },
+        "Haley_Fall_Outdoor_Sun_Updo_Red": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Updo"
+        },
+        "Haley_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Haley_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Haley_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Haley_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Haley_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Haley_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Haley_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Haley_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Haley_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Haley_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Haley_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Haley_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Haley_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Haley_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Haley_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Haley_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Haley_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Haley_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Haley_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Haley_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Haley_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Haley_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Haley_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Haley_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Haley_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Haley_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Haley_Winter_Indoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Haley_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Haley_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Haley_Winter_Indoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Haley_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Haley_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Haley_Winter_Outdoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Haley_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Haley_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Haley_Winter_Outdoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        }
+    },
+    "Harvey": {
+        "Harvey_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Harvey_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Harvey_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Harvey_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Harvey_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Harvey_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Harvey_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Harvey_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Harvey_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Harvey_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Harvey_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Harvey_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Harvey_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Harvey_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Harvey_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Harvey_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Harvey_Summer_Indoor_Rain": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Harvey_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Harvey_Summer_Outdoor_Rain": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Harvey_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Harvey_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Harvey_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Harvey_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Harvey_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Jas": {
+        "Jas_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jas_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jas_Fall_Sun": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jas_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jas_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jas_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jas_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jas_Summer_Indoor_Rain": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jas_Summer_Outdoor_Rain": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jas_Summer_Sun": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jas_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Jas_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jas_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Jas_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Jodi": {
+        "Jodi_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jodi_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jodi_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jodi_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jodi_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Summer_Indoor_Rain": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jodi_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Summer_Outdoor_Rain": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Jodi_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Jodi_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Jodi_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Jodi_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Kent": {
+        "Kent_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Kent_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Kent_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Kent_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Kent_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Kent_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Kent_Spring_Sun": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "Kent_Summer_Indoor_Rain": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Kent_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Kent_Summer_Outdoor_Rain": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Kent_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Kent_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Kent_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Kent_Winter_Sun": {
+            "Season": "Winter",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Krobus": {},
+    "Leah": {
+        "Leah_Fall_Indoor_Rain_Black": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Black"
+        },
+        "Leah_Fall_Indoor_Rain_Brown": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Brown"
+        },
+        "Leah_Fall_Indoor_Rain_Red": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "Red"
+        },
+        "Leah_Fall_Indoor_Sun_Black": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Black"
+        },
+        "Leah_Fall_Indoor_Sun_Brown": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Brown"
+        },
+        "Leah_Fall_Indoor_Sun_Red": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "Red"
+        },
+        "Leah_Fall_Outdoor_Rain_Black": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Black"
+        },
+        "Leah_Fall_Outdoor_Rain_Brown": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Brown"
+        },
+        "Leah_Fall_Outdoor_Rain_Red": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "Red"
+        },
+        "Leah_Fall_Outdoor_Sun_Black": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Black"
+        },
+        "Leah_Fall_Outdoor_Sun_Brown": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Brown"
+        },
+        "Leah_Fall_Outdoor_Sun_Red": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "Red"
+        },
+        "Leah_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Leah_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Leah_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Leah_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Leah_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Leah_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Leah_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Leah_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Leah_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Leah_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Leah_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Leah_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Leah_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Leah_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Leah_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Leah_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Leah_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Leah_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Leah_Winter_Outdoor_SnowBlue_Down": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": "Down"
+        },
+        "Leah_Winter_Outdoor_SnowBlue_Up": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": "Up"
+        },
+        "Leah_Winter_Outdoor_SnowRed_Down": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": "Down"
+        },
+        "Leah_Winter_Outdoor_SnowRed_Up": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": null,
+            "#": "Up"
+        },
+        "Leah_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Lewis": {
+        "Lewis_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Fall_Rain": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Lewis_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Spring_Rain": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Lewis_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Summer_Rain": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Lewis_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Lewis_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Lewis_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Lewis_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Linus": {
+        "Linus_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Fall_Rain": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Linus_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Spring_Rain": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Linus_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Summer_Rain": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Linus_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Linus_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Linus_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Linus_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Marnie": {
+        "Marnie_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Marnie_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Marnie_Fall_Indoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Marnie_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Fall_Indoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Marnie_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Marnie_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Marnie_Fall_Outdoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Marnie_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Fall_Outdoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Marnie_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Marnie_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Marnie_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Marnie_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Marnie_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Marnie_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Marnie_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Marnie_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Marnie_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Marnie_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Marnie_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Marnie_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Marnie_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Marnie_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Marnie_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Marnie_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Marnie_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Marnie_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Marnie_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        }
+    },
+    "Maru": {
+        "Maru_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Maru_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Maru_Fall_Indoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Maru_Fall_Indoor_Rain_4": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Maru_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Fall_Indoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Maru_Fall_Indoor_Sun_4": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Maru_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Maru_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Maru_Fall_Outdoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Maru_Fall_Outdoor_Rain_4": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Maru_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Fall_Outdoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Maru_Fall_Outdoor_Sun_4": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Maru_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Maru_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Maru_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Maru_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Maru_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Maru_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Maru_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Maru_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Maru_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Maru_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Maru_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Maru_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Maru_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Maru_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Maru_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Maru_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Maru_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Maru_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Maru_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Maru_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Maru_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Maru_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Maru_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        }
+    },
+    "Maru_Hospital": {},
+    "MermaidPendantOverlay": {},
+    "Pam": {
+        "Pam_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pam_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pam_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Pam_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Pam_Spring_Sun": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pam_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pam_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pam_Summer_Rain": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Pam_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Pam_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pam_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Pam_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Penny": {
+        "Penny_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Penny_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Penny_Fall_Indoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Penny_Fall_Indoor_Rain_4": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Penny_Fall_Indoor_Rain_5": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "5"
+        },
+        "Penny_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Fall_Indoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Fall_Indoor_Sun_4": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Fall_Indoor_Sun_5": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "5"
+        },
+        "Penny_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Penny_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Penny_Fall_Outdoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Penny_Fall_Outdoor_Rain_4": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Penny_Fall_Outdoor_Rain_5": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "5"
+        },
+        "Penny_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Fall_Outdoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Fall_Outdoor_Sun_4": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Fall_Outdoor_Sun_5": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "5"
+        },
+        "Penny_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Penny_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Penny_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Penny_Spring_Indoor_Rain_4": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Penny_Spring_Indoor_Rain_5": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "5"
+        },
+        "Penny_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Spring_Indoor_Sun_4": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Spring_Indoor_Sun_5": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "5"
+        },
+        "Penny_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Penny_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Penny_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Penny_Spring_Outdoor_Rain_4": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Penny_Spring_Outdoor_Rain_5": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "5"
+        },
+        "Penny_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Spring_Outdoor_Sun_4": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Spring_Outdoor_Sun_5": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "5"
+        },
+        "Penny_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Penny_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Penny_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Penny_Summer_Indoor_Rain_4": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Penny_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Summer_Indoor_Sun_4": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Penny_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Penny_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Penny_Summer_Outdoor_Rain_4": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Penny_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Summer_Outdoor_Sun_4": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Penny_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Penny_Winter_Indoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Penny_Winter_Indoor_Snow_4": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "4"
+        },
+        "Penny_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Winter_Indoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Winter_Indoor_Sun_4": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Penny_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Penny_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Penny_Winter_Outdoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Penny_Winter_Outdoor_Snow_4": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "4"
+        },
+        "Penny_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Penny_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Penny_Winter_Outdoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Penny_Winter_Outdoor_Sun_4": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        }
+    },
+    "Pierre": {
+        "Pierre_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pierre_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pierre_Fall_Rain": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Pierre_Spring_Rain": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Pierre_Spring_Sun": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pierre_Summer_Rain": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Pierre_Summer_Sun": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pierre_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Pierre_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Pierre_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Pierre_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "RandomFlowerQueen": {},
+    "Robin": {
+        "Robin_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Robin_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Robin_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Robin_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Robin_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Robin_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Robin_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Robin_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Robin_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Robin_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Robin_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Robin_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Robin_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Robin_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Robin_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Robin_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Robin_Summer_Indoor_Rain": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Robin_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Robin_Summer_Outdoor_Rain": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Robin_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Robin_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Robin_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Robin_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Robin_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Robin_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Robin_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Robin_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Robin_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        }
+    },
+    "Sam": {
+        "Sam_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Sam_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Sam_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Sam_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Sam_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Sam_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Sam_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Sam_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Sam_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sam_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sam_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sam_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sam_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sam_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sam_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sam_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sam_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Sam_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Sam_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Sam_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Sandy": {
+        "Sandy_Fall_1": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Fall_2": {
+            "Season": "Fall",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Spring_1": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Spring_2": {
+            "Season": "Spring",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Summer_1": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Summer_2": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Winter_1": {
+            "Season": "Winter",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "Sandy_Winter_2": {
+            "Season": "Winter",
+            "Location": null,
+            "Weather": null,
+            "#": null
+        }
+    },
+    "Sebastian": {
+        "Sebastian_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sebastian_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sebastian_Fall_Indoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Sebastian_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Fall_Indoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sebastian_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sebastian_Fall_Outdoor_Rain_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Sebastian_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Fall_Outdoor_Sun_3": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sebastian_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sebastian_Spring_Indoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Sebastian_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Spring_Indoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sebastian_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sebastian_Spring_Outdoor_Rain_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Sebastian_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Spring_Outdoor_Sun_3": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sebastian_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sebastian_Summer_Indoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Sebastian_Summer_Indoor_Rain_4": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Sebastian_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Summer_Indoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Summer_Indoor_Sun_4": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Sebastian_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Sebastian_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Sebastian_Summer_Outdoor_Rain_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "3"
+        },
+        "Sebastian_Summer_Outdoor_Rain_4": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "4"
+        },
+        "Sebastian_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Summer_Outdoor_Sun_3": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Summer_Outdoor_Sun_4": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "4"
+        },
+        "Sebastian_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Sebastian_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Sebastian_Winter_Indoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Sebastian_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Winter_Indoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "3"
+        },
+        "Sebastian_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Sebastian_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Sebastian_Winter_Outdoor_Snow_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "3"
+        },
+        "Sebastian_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Sebastian_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Sebastian_Winter_Outdoor_Sun_3": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "3"
+        }
+    },
+    "Shane": {
+        "Shane_Fall_Indoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Shane_Fall_Indoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Shane_Fall_Indoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Fall_Indoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Fall_Outdoor_Rain_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Shane_Fall_Outdoor_Rain_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Shane_Fall_Outdoor_Sun_1": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Fall_Outdoor_Sun_2": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Spring_Indoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Shane_Spring_Indoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Shane_Spring_Indoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Spring_Indoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Spring_Outdoor_Rain_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Shane_Spring_Outdoor_Rain_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Shane_Spring_Outdoor_Sun_1": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Spring_Outdoor_Sun_2": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Summer_Indoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Shane_Summer_Indoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Shane_Summer_Indoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Summer_Indoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Summer_Outdoor_Rain_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Shane_Summer_Outdoor_Rain_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": "2"
+        },
+        "Shane_Summer_Outdoor_Sun_1": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Summer_Outdoor_Sun_2": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Winter_Indoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Shane_Winter_Indoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Shane_Winter_Indoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Winter_Indoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": "2"
+        },
+        "Shane_Winter_Outdoor_Snow_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "1"
+        },
+        "Shane_Winter_Outdoor_Snow_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": "2"
+        },
+        "Shane_Winter_Outdoor_Sun_1": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "1"
+        },
+        "Shane_Winter_Outdoor_Sun_2": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": "2"
+        }
+    },
+    "Swimsuits": {
+        "AbigailSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "AlexSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "CarolineSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "ClintSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "DemetriusSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "ElliottSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "EmilySwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "EvelynSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "GusSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "HarveySwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "JasSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "JodiSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "KentSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "LeahSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "LewisSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "LinusSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "MarnieSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "MaruSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "PamSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "PierreSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "RobinSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "SamSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "SebastianSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "ShaneSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "VincentSwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        },
+        "WillySwim": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null
+        }
+    },
+    "Vincent": {
+        "Vincent_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Vincent_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Vincent_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Vincent_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Vincent_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Summer_Indoor_Rain": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Vincent_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Summer_Outdoor_Rain": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Vincent_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Vincent_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Vincent_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Vincent_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Willy": {
+        "Willy_Fall_Indoor_Rain": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Willy_Fall_Indoor_Sun": {
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Fall_Outdoor_Rain": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Willy_Fall_Outdoor_Sun": {
+            "Season": "Fall",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Spring_Indoor_Rain": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Willy_Spring_Indoor_Sun": {
+            "Season": "Spring",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Spring_Outdoor_Rain": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Rain",
+            "#": null
+        },
+        "Willy_Spring_Outdoor_Sun": {
+            "Season": "Spring",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Summer_Indoor_Sun": {
+            "Season": "Summer",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Summer_Outdoor_Sun": {
+            "Season": "Summer",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Summer_Rain": {
+            "Season": "Summer",
+            "Location": null,
+            "Weather": "Rain",
+            "#": null
+        },
+        "Willy_Winter_Indoor_Snow": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Willy_Winter_Indoor_Sun": {
+            "Season": "Winter",
+            "Location": "Indoor",
+            "Weather": "Sun",
+            "#": null
+        },
+        "Willy_Winter_Outdoor_Snow": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null
+        },
+        "Willy_Winter_Outdoor_Sun": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Sun",
+            "#": null
+        }
+    },
+    "Wizard": {}
+}

@@ -1,0 +1,13 @@
+{
+    "Name": "Seasonal Villager Outfits SMAPI ver.",
+    "Author": "Shidouuu",
+    "Version": "1.0.0",
+    "Description": "SMAPI version of Seasonal Villager Outfits. Original mod and assets by [insert authors].",
+    "UniqueID": "shidouuu.svosmapi",
+    "EntryDll": "svosmapi.dll",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [],
+    "Dependencies": [
+      { "UniqueID": "Pathoschild.ContentPatcher", "MinimumVersion": "1.29.0" }
+    ]
+  }

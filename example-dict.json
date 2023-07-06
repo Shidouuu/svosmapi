@@ -1,0 +1,83 @@
+{ // Portraits/Sprites that do not meet the standard format will just have to be done manually for now.
+    // First level Dictionary<string, Dictionary<string, Dictionary<string, string>>>
+    "Abigail": { 
+        // Second level Dictionary<string, Dictionary<string, string>>
+        "Abigail_Fall_Indoor_Rain_1.png": { 
+            // Third level Dictionary<string, string>
+            "Season": "Fall",
+            "Location": "Indoor",
+            "Weather": "Rain",
+            "#": "1"
+        },
+        "Abigail_Maternity.png": "Maternity"
+    },
+    "Clint": {
+        "Clint_Apron.png": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null,
+            "Clint Apron": true
+        }
+    },
+    "Demetrius": {
+        "Work": {
+            "Demetrius_Fall_Indoor_1.png": {
+                "Season": null,
+                "Location": null,
+                "Weather": null,
+                "#": null,
+                "Demetrius Lab Coat": true
+            }    
+        },
+        "Demetrius_LabCoat.png": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null,
+            "Demetrius Lab Coat": true
+        }
+    },
+    "Emily": {
+        "Tattoos": {
+            "Festivals": {
+                "Emily_FlowerDance.png": {
+                    "Season": null,
+                    "Location": null,
+                    "Weather": null,
+                    "#": null,
+                    "Tattoo": true         
+                }
+            },
+            "Emily_Spring_Indoor_Rain_1.png": {
+                "Season": "Spring",
+                "Location": "Indoor",
+                "Weather": "Rain",
+                "#": "1",
+                "Tattoo": true         
+            },
+        },
+        "Emily_Aerobics.png": {
+            "Season": null,
+            "Location": null,
+            "Weather": null,
+            "#": null,
+            "Aerobics": true
+        },
+        
+    },
+    "Lewis": {
+        "Lewis_Winter_Outdoor_Snow.png": {
+            "Season": "Winter",
+            "Location": "Outdoor",
+            "Weather": "Snow",
+            "#": null // Not always present.
+        },
+        "Lewis_Summer_Rain.png": {
+            "Season": "Summer",
+            "Location": null, // This is used for both indoors and outdoors.
+            "Weather": "Rain",
+            "#": null
+        }
+    }
+}

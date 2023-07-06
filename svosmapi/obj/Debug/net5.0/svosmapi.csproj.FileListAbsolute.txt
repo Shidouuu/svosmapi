@@ -1,0 +1,8 @@
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\bin\Debug\net5.0\svosmapi.deps.json
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\bin\Debug\net5.0\svosmapi.dll
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\obj\Debug\net5.0\svosmapi.csproj.AssemblyReference.cache
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\obj\Debug\net5.0\svosmapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\obj\Debug\net5.0\svosmapi.AssemblyInfoInputs.cache
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\obj\Debug\net5.0\svosmapi.AssemblyInfo.cs
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\obj\Debug\net5.0\svosmapi.csproj.CoreCompileInputs.cache
+C:\Users\Soren\Documents\SAP II.V\SVO SMAPI\svosmapi\obj\Debug\net5.0\svosmapi.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XGvadKbE68pI86ins7aTWTjE/edqIzhdlQ2A9K04AvrR0o4xjPLGDkzLRv3AK8cixa9DZi7rjYTf0RArBIuLUw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Soren\\Documents\\SAP II.V\\SVO SMAPI\\svosmapi\\svosmapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Soren\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
