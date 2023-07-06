@@ -229,9 +229,9 @@ def scan_standard(FolderType):
 
 scan_standard("Portraits")
 scan_standard("Characters")
-with open('Portraits.json', 'w') as fp:
+with open('svosmapi/data/Portraits.json', 'w') as fp:
     fp.write(json.dumps(port_dict, indent=4))
-with open('Characters.json', 'w') as fp:
+with open('svosmapi/data/Characters.json', 'w') as fp:
     fp.write(json.dumps(char_dict, indent=4))
 log.close()
 
