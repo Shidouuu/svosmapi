@@ -21,24 +21,32 @@ internal sealed class ModEntry : Mod {
     /// <inheritdoc cref="IModHelper"/>
     public override void Entry(IModHelper helper) {
         helper.Events.Content.AssetRequested += this.OnAssetRequested;
-        helper.Events.Player.Warped += this.OnPlayerWarped;
+        //helper.Events.Player.Warped += this.OnPlayerWarped;
         helper.Events.World.NpcListChanged += this.OnNpcListChanged;
         helper.Events.GameLoop.GameLaunched += this.OnGameLaunched;
     }
 
     private readonly string[] CharArray = {"Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"};
-
-    private IDictionary<string, Dictionary<string, Dictionary<string, string>>> JDict = new Dictionary<string, Dictionary<string, Dictionary<string, string>>>(); // First (top) level dict
+    dynamic PortraitsJson;
+    dynamic CharactersJson;
     /// <inheritdoc cref="IGameLoopEvents.GameLaunched"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>
     private void OnGameLaunched(object sender, GameLaunchedEventArgs e) {
+        using (StreamReader file = File.OpenText(Path.Combine(this.Helper.DirectoryPath, "assets", "data", "Portraits.json"))) {
+            string stream_contents = file.ReadToEnd();
+            PortraitsJson = JObject.Parse(stream_contents);
+        }        
+        using (StreamReader file = File.OpenText(Path.Combine(this.Helper.DirectoryPath, "assets", "data", "Characters.json"))) {
+            string stream_contents = file.ReadToEnd();
+            CharactersJson = JObject.Parse(stream_contents);
+        }        
     }
     /// <inheritdoc cref="IContentEvents.AssetRequested"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>
     private void OnAssetRequested(object sender, AssetRequestedEventArgs e) {
-        void ImageLoad(string name) {
+        void standard_load(string name) {
             Random rnd = new();
             string season = Game1.currentSeason;
             string inside_outside;
@@ -50,19 +58,42 @@ internal sealed class ModEntry : Mod {
             if (Game1.isRaining) { sun_rain  = "Rain"; }
             else { sun_rain = "Sun"; }
 
-            List<int> ran_int = new() {1, 2, 3, 4};
+            List<string> pound_list = new(); // 'pound' for '#'
+            bool pound_available = true;
+            foreach (JProperty pproperty in PortraitsJson[name]) {
+                try {
+                    var stest = PortraitsJson[name][pproperty.Name]["Season"].Value;
+                    var ltest = PortraitsJson[name][pproperty.Name]["Location"].Value;
+                    var wtest = PortraitsJson[name][pproperty.Name]["Weather"].Value;
+                    // Must use string.Equals(str1, str2, StringComparison.OrdinalIgnoreCase) since "==" is case-sensitive
+                    bool sbool = string.Equals(PortraitsJson[name][pproperty.Name]["Season"].Value, season, StringComparison.OrdinalIgnoreCase);
+                    bool lbool = string.Equals(PortraitsJson[name][pproperty.Name]["Location"].Value, inside_outside, StringComparison.OrdinalIgnoreCase);
+                    bool wbool = string.Equals(PortraitsJson[name][pproperty.Name]["Weather"].Value, sun_rain, StringComparison.OrdinalIgnoreCase);
+                    if (sbool && lbool && wbool) {
+                        if (PortraitsJson[name][pproperty.Name]["#"] != null)
+                            pound_list.Add(PortraitsJson[name][pproperty.Name]["#"].Value);
+                        else
+                            pound_available = false;
+                    }
+                }
+                catch (InvalidOperationException) {
+                    this.Monitor.Log($"Error attempting to read json from {name}/{pproperty.Name}!", LogLevel.Warn);
+                }
+            }
+
+            int r = rnd.Next(0, pound_list.Count - 1);
+            this.Monitor.Log("r equals " + r);
+            e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_{season}_{inside_outside}_{sun_rain}_{pound_list[r]}"), AssetLoadPriority.Medium);
+            this.Monitor.Log($"Portrait {name}_{season}_{inside_outside}_{sun_rain}_{pound_list[r]} loaded", LogLevel.Trace);
+            this.Monitor.Log("done loading", LogLevel.Trace);
+
+            /*List<int> ran_int = new() {1, 2, 3, 4};
             bool done = false;
             while (!done) {
                 int r = rnd.Next(0, ran_int.Count - 1);
                 this.Monitor.Log("r equals " + r);
                 try {
-                    e.LoadFromModFile<Texture2D>(
-                        Path.Combine(
-                            "assets", "Portraits", name, 
-                            $"{name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]}"
-                        ), 
-                        AssetLoadPriority.Medium
-                    );
+                    e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]}"), AssetLoadPriority.Medium);
                     this.Monitor.Log($"Portrait {name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]} loaded", LogLevel.Trace);
                     done = true;
                     this.Monitor.Log("done loading", LogLevel.Trace);
@@ -71,27 +102,32 @@ internal sealed class ModEntry : Mod {
                     this.Monitor.Log($"Portrait {name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]} not found, removing from list...", LogLevel.Warn);
                     ran_int.Remove(r); 
                 }
-            }
+            }*/
+        }
+        // The purpose of this function is to determine which function to use to load the image (standard, festival, maternity, etc).
+        // But right now only standard_load will work until it is polished and ready.
+        void determine_load_method(string name) {
+            standard_load(name);
         }
 
-        foreach (string i in CharArray) {
+        /*foreach (string i in CharArray) {
             if (e.Name.IsEquivalentTo($"Portraits/{i}")) 
-                ImageLoad(i);
-        }
-
-        /*if (e.Name.IsEquivalentTo("Portraits/Abigail")) {
-            ImageLoad("Abigail");
+                determine_load_method(i);
         }*/
+
+        if (e.Name.IsEquivalentTo("Portraits/Abigail")) {
+            determine_load_method("Abigail");
+        }
     }
     /// <inheritdoc cref="IPlayerEvents.Warped"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>
-    private void OnPlayerWarped(object sender, WarpedEventArgs e) {
+    /*private void OnPlayerWarped(object sender, WarpedEventArgs e) {
         for (int i = 0; i < e.NewLocation.characters.Count; i++) {
             if (Array.Exists(CharArray, element => element == e.NewLocation.characters[i].Name)) 
                 Helper.GameContent.InvalidateCache($"Portraits/{e.NewLocation.characters[i].Name}");
         }
-    }
+    }*/
     /// <inheritdoc cref="IWorldEvents.NpcListChanged"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>

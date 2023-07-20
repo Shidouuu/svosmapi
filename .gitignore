@@ -1,4 +1,8 @@
-svosmapi/assets
+/svosmapi/assets/*
+!/svosmapi/assets/data
 .vscode
 svosmapi/bin
 svosmapi/obj
+content.json
+.tex
+log.txt

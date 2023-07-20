@@ -2,6 +2,11 @@ import json
 import os
 from pathlib import Path
 
+'''
+This script is for generating the Characters.json and Portraits.json in data. 
+If you need to update the json's, run this script and (theoretically) it will overwrite the old json's.
+'''
+
 log = open("log.txt", "w")
 CharList = ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"]
 char_dict = {}
