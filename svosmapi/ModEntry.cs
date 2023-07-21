@@ -42,19 +42,17 @@ internal sealed class ModEntry : Mod {
             CharactersJson = JObject.Parse(stream_contents);
         }        
     }
+    private readonly string[] preg_array = {"Abigail, Emily, Haley, Leah, Maru, Penny"};
     /// <inheritdoc cref="IContentEvents.AssetRequested"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>
     private void OnAssetRequested(object sender, AssetRequestedEventArgs e) {
+        string season = Game1.currentSeason;
         void standard_load(string name) {
-            Random rnd = new();
-            string season = Game1.currentSeason;
-            string inside_outside;
+            string indoor_outdoor;
             string sun_rain;
-
-            if (Game1.currentLocation.IsOutdoors) { inside_outside = "Outdoor"; }
-            else { inside_outside = "Indoor"; }
-
+            if (Game1.currentLocation.IsOutdoors) { indoor_outdoor = "Outdoor"; }
+            else { indoor_outdoor = "Indoor"; }
             if (Game1.isRaining) { sun_rain  = "Rain"; }
             else { sun_rain = "Sun"; }
 
@@ -67,7 +65,7 @@ internal sealed class ModEntry : Mod {
                     var wtest = PortraitsJson[name][pproperty.Name]["Weather"].Value;
                     // Must use string.Equals(str1, str2, StringComparison.OrdinalIgnoreCase) since "==" is case-sensitive
                     bool sbool = string.Equals(PortraitsJson[name][pproperty.Name]["Season"].Value, season, StringComparison.OrdinalIgnoreCase);
-                    bool lbool = string.Equals(PortraitsJson[name][pproperty.Name]["Location"].Value, inside_outside, StringComparison.OrdinalIgnoreCase);
+                    bool lbool = string.Equals(PortraitsJson[name][pproperty.Name]["Location"].Value, indoor_outdoor, StringComparison.OrdinalIgnoreCase);
                     bool wbool = string.Equals(PortraitsJson[name][pproperty.Name]["Weather"].Value, sun_rain, StringComparison.OrdinalIgnoreCase);
                     if (sbool && lbool && wbool) {
                         if (PortraitsJson[name][pproperty.Name]["#"] != null)
@@ -77,37 +75,49 @@ internal sealed class ModEntry : Mod {
                     }
                 }
                 catch (InvalidOperationException) {
-                    this.Monitor.Log($"Error attempting to read json from {name}/{pproperty.Name}!", LogLevel.Warn);
+                    this.Monitor.Log($"Error attempting to read json from {name}/{pproperty.Name}!", LogLevel.Warn); // need better error message
                 }
             }
 
+            Random rnd = new();
             int r = rnd.Next(0, pound_list.Count - 1);
             this.Monitor.Log("r equals " + r);
-            e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_{season}_{inside_outside}_{sun_rain}_{pound_list[r]}"), AssetLoadPriority.Medium);
-            this.Monitor.Log($"Portrait {name}_{season}_{inside_outside}_{sun_rain}_{pound_list[r]} loaded", LogLevel.Trace);
+            e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_{season}_{indoor_outdoor}_{sun_rain}_{pound_list[r]}"), AssetLoadPriority.Medium);
+            this.Monitor.Log($"Portrait {name}_{season}_{indoor_outdoor}_{sun_rain}_{pound_list[r]} loaded", LogLevel.Trace);
             this.Monitor.Log("done loading", LogLevel.Trace);
-
             /*List<int> ran_int = new() {1, 2, 3, 4};
             bool done = false;
             while (!done) {
                 int r = rnd.Next(0, ran_int.Count - 1);
                 this.Monitor.Log("r equals " + r);
                 try {
-                    e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]}"), AssetLoadPriority.Medium);
-                    this.Monitor.Log($"Portrait {name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]} loaded", LogLevel.Trace);
+                    e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_{season}_{indoor_outdoor}_{sun_rain}_{ran_int[r]}"), AssetLoadPriority.Medium);
+                    this.Monitor.Log($"Portrait {name}_{season}_{indoor_outdoor}_{sun_rain}_{ran_int[r]} loaded", LogLevel.Trace);
                     done = true;
                     this.Monitor.Log("done loading", LogLevel.Trace);
                 }
                 catch (ContentLoadException) { 
-                    this.Monitor.Log($"Portrait {name}_{season}_{inside_outside}_{sun_rain}_{ran_int[r]} not found, removing from list...", LogLevel.Warn);
+                    this.Monitor.Log($"Portrait {name}_{season}_{indoor_outdoor}_{sun_rain}_{ran_int[r]} not found, removing from list...", LogLevel.Warn);
                     ran_int.Remove(r); 
                 }
             }*/
         }
+        void maternity_load(string name ) {
+            e.LoadFromModFile<Texture2D>(Path.Combine("assets", "Portraits", name, $"{name}_Maternity"), AssetLoadPriority.Medium);
+        }
         // The purpose of this function is to determine which function to use to load the image (standard, festival, maternity, etc).
-        // But right now only standard_load will work until it is polished and ready.
         void determine_load_method(string name) {
-            standard_load(name);
+            var spouse = Game1.player.getSpouse();
+            bool sbool;
+            try { sbool = preg_array.Contains(spouse.Name); }
+            catch (NullReferenceException) { sbool = false; }
+            if (sbool) { // No idea if this works!
+                var frenDict = Game1.player.friendshipData;
+                if (frenDict[name].DaysUntilBirthing > 0) 
+                    maternity_load(name);
+            }
+            else
+                standard_load(name);
         }
 
         /*foreach (string i in CharArray) {
