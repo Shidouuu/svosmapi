@@ -190,6 +190,13 @@ def check_attributes(AttList, AssetName):
         return AttList[2] # The color
     elif AttList[1] == "Motorbike": # For Sebastian
         return "Motorbike_Helmet"
+pnamelist = []
+cnamelist = []
+def name_lists(name, FolderType):
+    if FolderType == "Portraits":
+        pnamelist.append(f"{name}_P")
+    elif FolderType == "Characters":
+        cnamelist.append(f"{name}_S")
 def scan_standard(FolderType):
     with os.scandir(f"svosmapi/assets/{FolderType}") as SubDir:
         for SubName in SubDir:
@@ -211,17 +218,20 @@ def scan_standard(FolderType):
                                             for Sub3Asset in AssetSub3Dir:
                                                 fifth = None
                                                 AttList = (Path(Sub3Asset).stem).split("_")
+                                                name_lists(Path(Sub3Asset).stem, FolderType)
                                                 print(f"N3: {str(AttList)}", file=log)
                                                 fifth = check_attributes(AttList, Sub3Asset)
                                                 fourth[Path(Sub3Asset).stem] = fifth
                                     else:
                                         AttList = (Path(SubAsset).stem).split("_")
+                                        name_lists(Path(SubAsset).stem, FolderType)
                                         print(f"N2: {str(AttList)}", file=log)
                                         fourth = check_attributes(AttList, SubAsset)
                                     third[Path(SubAsset).stem] = fourth
 
                         else:
                             AttList = (Path(AssetName).stem).split("_")
+                            name_lists(Path(AssetName).stem, FolderType)
                             print(f"N1: {str(AttList)}", file=log)
                             third = check_attributes(AttList, AssetName)
                         second_dict[Path(AssetName).stem] = third
@@ -234,10 +244,21 @@ def scan_standard(FolderType):
 
 scan_standard("Portraits")
 scan_standard("Characters")
-with open('svosmapi/data/Portraits.json', 'w') as fp:
+with open('svosmapi/data/Portraits-out.json', 'w') as fp:
     fp.write(json.dumps(port_dict, indent=4))
-with open('svosmapi/data/Characters.json', 'w') as fp:
+with open('svosmapi/data/Characters-out.json', 'w') as fp:
     fp.write(json.dumps(char_dict, indent=4))
+with open('svosmapi/data/Config-out.json', 'w') as fp:
+    name_dict = {}
+    i = 0
+    while i != len(pnamelist):
+        name_dict[pnamelist[i]] = "true"
+        try:
+            name_dict[cnamelist[i]] = "true"
+        except IndexError:
+            print(f"List out of range for {i}!", file=log)
+        i += 1
+    fp.write(json.dumps(name_dict, indent=4))
 log.close()
 
 
