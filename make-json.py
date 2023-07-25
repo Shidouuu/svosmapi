@@ -4,7 +4,6 @@ from pathlib import Path
 
 '''
 This script is for generating the Characters.json and Portraits.json in data. 
-If you need to update the json's, run this script and (theoretically) it will overwrite the old json's.
 '''
 
 log = open("log.txt", "w")
@@ -20,6 +19,7 @@ def standard_format(AttributeList, FileName):
     n = 1
     try:
         standard_dict = {
+            "Format": "Standard",
             "Season": None,
             "Location": None,
             "Weather": None,
@@ -56,6 +56,7 @@ def standard_format(AttributeList, FileName):
 def swim(AttributeList, FileName):
     Variations = ["Pink", "White", "Blue", "Yellow", "Floaties", "NoFloaties", "Censored", "GrassSkirt"] # For Haley, Penny, George, and Linus
     swim_dict = {
+        "Format": "Swim",
         "Swim": True,
         "Variation": None
     }
@@ -78,6 +79,7 @@ def festivals(AttributeList, FileName):
         ] 
     Extras = ["Mustache", "Shaved", "Facepaint", "NoFacepaint"] # Harvey EggFestival, Sam SpiritsEve
     festival_dict = {
+        "Format": "Festival",
         "Festival": None,
         "Variation": None,
         "Extra": None,
@@ -97,6 +99,7 @@ def festivals(AttributeList, FileName):
 def krobus(AttributeList, FileName):
     Variations = ["Blue", "Leaf", "Purple", "Scarf", "Trenchcoat", "GreenScarf", "PinkScarf", "RedScarf", "Yellow"]
     krobus_dict = {
+        "Format": "Krobus",
         "Season": None,
         "Weather": None,
         "Variation": None
@@ -116,6 +119,7 @@ def krobus(AttributeList, FileName):
     return krobus_dict
 def sebastian_glasses_festivals(AttributeList, FileName):
     glasses_dict = {
+        "Format": "Sebastian GF",
         "Season": None,
         "Festival": None,
         "#": None
@@ -135,6 +139,7 @@ def sebastian_glasses_festivals(AttributeList, FileName):
     return glasses_dict
 def sebastian_piercing(AttributeList, FileName):
     piercing_dict = {
+        "Format": "Sebastian Piercing",
         "Festival": None,
         "Weather": None,
         "#": None
@@ -148,7 +153,6 @@ def sebastian_piercing(AttributeList, FileName):
     except IndexError:
         print(f"Tried accessing AttributeList[1] for {FileName}, caught index out of range!", file=log)
     return piercing_dict
-
 def check_attributes(AttList, AssetName):
     specials = [
         "Maternity", # Bachelorettes
@@ -260,10 +264,3 @@ with open('svosmapi/data/Config-out.json', 'w') as fp:
         i += 1
     fp.write(json.dumps(name_dict, indent=4))
 log.close()
-
-
-
-
-
-
-

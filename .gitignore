@@ -1,8 +1,14 @@
-/svosmapi/assets/*
-!/svosmapi/assets/data
 .vscode
+.vs
 svosmapi/bin
 svosmapi/obj
 content.json
 .tex
 log.txt
+data/Characters-out.json
+data/Portraits-out.json
+data/Config-out.json
+svosmapi/ModEntry-archive.cs
+/ModEntry-archive.cs
+/config-archive.cs
+gmcm
