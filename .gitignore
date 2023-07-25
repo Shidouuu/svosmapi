@@ -2,6 +2,7 @@
 .vs
 svosmapi/bin
 svosmapi/obj
+svosmapi/assets
 content.json
 .tex
 log.txt
@@ -12,3 +13,4 @@ svosmapi/ModEntry-archive.cs
 /ModEntry-archive.cs
 /config-archive.cs
 gmcm
+IGenericModConfigMenuApi.cs
