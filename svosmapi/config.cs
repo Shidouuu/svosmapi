@@ -682,7 +682,7 @@ public sealed class ModConfig
     public string Jas_Spring_Indoor_Rain { get; set; } = "both";
     public string Jas_Spring_Indoor_Sun { get; set; } = "both";
     public string Jas_Spring_Outdoor_Rain { get; set; } = "both";
-    public string Jas_Spring_Outdoor_Sun { get; set; } = "both";
+    public string Jas_Spring_Outdoor_Sun { get; set; } = "portrait";
     public string Jas_Summer_Indoor_Rain { get; set; } = "both";
     public string Jas_Summer_Outdoor_Rain { get; set; } = "both";
     public string Jas_Summer_Sun { get; set; } = "both";

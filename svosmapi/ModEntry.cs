@@ -16,6 +16,7 @@ using System.Net.Http.Headers;
 using GenericModConfigMenu;
 using System.Diagnostics;
 using System.Reflection;
+using static StardewValley.Minigames.MineCart;
 
 namespace svosmapi;
 
@@ -70,15 +71,29 @@ internal sealed class ModEntry : Mod
         );
 
         PropertyInfo[] properties = typeof(ModConfig).GetProperties();
+        string[] exclusive_portraits = { "Jas_Spring_Indoor_Sun", "Jas_Spring_Outdoor_Sun" };
         foreach (PropertyInfo property in properties)
         {
-            configMenu.AddTextOption(
-                mod: this.ModManifest,
-                name: () => property.Name,
-                getValue: () => property.GetValue(this.Config).ToString(),
-                setValue: value => property.SetValue(this.Config, value),
-                allowedValues: new string[] { "both", "portrait", "sprite", "none" }
-            );
+            if (exclusive_portraits.Contains(property.Name))
+            {
+                configMenu.AddTextOption(
+                    mod: this.ModManifest,
+                    name: () => property.Name,
+                    getValue: () => property.GetValue(this.Config).ToString(),
+                    setValue: value => property.SetValue(this.Config, value),
+                    allowedValues: new string[] { "portrait", "none" }
+                );
+            }
+            else
+            {
+                configMenu.AddTextOption(
+                    mod: this.ModManifest,
+                    name: () => property.Name,
+                    getValue: () => property.GetValue(this.Config).ToString(),
+                    setValue: value => property.SetValue(this.Config, value),
+                    allowedValues: new string[] { "both", "portrait", "sprite", "none" }
+                );
+            }
         }
     }
     string season;
@@ -102,14 +117,13 @@ internal sealed class ModEntry : Mod
     /// <param name="e">The event data.</param>
     private void OnAssetRequested(object sender, AssetRequestedEventArgs e)
     {
-        Stopwatch sw1 = Stopwatch.StartNew();
-        if (Imgs2Load.Keys.Contains(e.Name.Name)) {
-            sw1.Stop(); this.Monitor.Log($"Searched for {e.Name.Name} in {sw1.ElapsedMilliseconds}.");
-            sw1 = Stopwatch.StartNew();
+        Stopwatch sw1 = new Stopwatch();
+        if (Imgs2Load.Keys.Contains(e.Name.Name) && !ImagesLoaded.Contains(e.Name.Name)) {
             e.LoadFromModFile<Texture2D>(Imgs2Load[e.Name.Name], AssetLoadPriority.Medium);
-            sw1.Stop(); this.Monitor.Log($"Loaded {e.Name.Name} in {sw1.ElapsedMilliseconds}.");
+            sw1.Start();
+            this.Monitor.Log($"Loaded {Imgs2Load[e.Name.Name]} in {sw1.ElapsedMilliseconds}."); sw1.Stop();
+            ImagesLoaded.Add(e.Name.Name);
         }
-        Imgs2Load.Clear();
         /*foreach (string i in CharArray) {
             if (e.Name.IsEquivalentTo($"Portraits/{i}")) 
                 determine_load_method(i);
@@ -170,6 +184,13 @@ internal sealed class ModEntry : Mod
                     if (sbool && (lbool || lval == null) && (wbool || wval == null))
                     {
                         string conval = GetStrVal(pproperty.Name, this.Config);
+                        /*// TODO: Create function for this
+                        // Since a sprite does not exist for this variation (uses default), this will set the config to "portrait" only.
+                        if (string.Equals(name, "jas", StringComparison.OrdinalIgnoreCase) &&
+                            string.Equals(sval, "spring", StringComparison.OrdinalIgnoreCase) &&
+                            string.Equals(lval, "indoor", StringComparison.OrdinalIgnoreCase) &&
+                            string.Equals(wval, "sun", StringComparison.OrdinalIgnoreCase))
+                            this.Config.GetType().GetProperty(name).SetValue(this.Config, "portrait");*/
                         if (!string.Equals(conval, "none", StringComparison.OrdinalIgnoreCase))
                             valid_images.Add(pproperty.Name, conval);
                         bool pisnull = standard_portraits[pproperty.Name]["#"] == null;
@@ -229,7 +250,6 @@ internal sealed class ModEntry : Mod
             {
                 Helper.GameContent.InvalidateCache($"Portraits/{i.Name}");
                 Helper.GameContent.InvalidateCache($"Characters/{i.Name}");
-                this.Monitor.Log("Invalidated cache");
                 determine_load_method(i.Name);
             }
         }
