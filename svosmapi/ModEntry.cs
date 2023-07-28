@@ -71,6 +71,8 @@ internal sealed class ModEntry : Mod
         );
 
         PropertyInfo[] properties = typeof(ModConfig).GetProperties();
+        // When adding exclusives, the config.json must be manually changed to a valid option in either GMCM or through a text editor in the mod folder.
+        // Additionally, the default value in config.cs must be manually changed to reflect the new allowed values as well.
         string[] exclusive_portraits = { "Jas_Spring_Indoor_Sun", "Jas_Spring_Outdoor_Sun" };
         foreach (PropertyInfo property in properties)
         {
@@ -98,11 +100,14 @@ internal sealed class ModEntry : Mod
     }
     string season;
     string weather;
+    DayOfWeek WeekDay;
     /// <inheritdoc cref="IGameLoopEvents.DayStarted"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>
     private void OnDayStarted(object sender, DayStartedEventArgs e)
     {
+        SDate date = SDate.Now();
+        WeekDay = date.DayOfWeek;
         season = Game1.currentSeason;
         if (Game1.isRaining) { weather = "Rain"; }
         else if (Game1.isSnowing) { weather = "Snow"; }
@@ -117,7 +122,8 @@ internal sealed class ModEntry : Mod
     /// <param name="e">The event data.</param>
     private void OnAssetRequested(object sender, AssetRequestedEventArgs e)
     {
-        Stopwatch sw1 = new Stopwatch();
+        Stopwatch sw1 = new Stopwatch(); // Kinda redundant since images are always loaded in 0 milliseconds but eh
+        this.Monitor.Log($"e.Name.Name is {e.Name.Name}");
         if (Imgs2Load.Keys.Contains(e.Name.Name) && !ImagesLoaded.Contains(e.Name.Name)) {
             e.LoadFromModFile<Texture2D>(Imgs2Load[e.Name.Name], AssetLoadPriority.Medium);
             sw1.Start();
@@ -137,6 +143,7 @@ internal sealed class ModEntry : Mod
         }*/
     }
     private readonly string[] CharArray = { "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard" };
+    private readonly string[] AerobicsArray = { "Caroline", "Emily", "Harvey", "Jodi", "Marnie", "Robin" };
     /// <inheritdoc cref="IPlayerEvents.Warped"/>
     /// <param name="sender">The event sender.</param>
     /// <param name="e">The event data.</param>
@@ -146,8 +153,10 @@ internal sealed class ModEntry : Mod
         ImagesLoaded.Clear();
 
         string indoor_outdoor;
-        if (Game1.currentLocation.IsOutdoors) { indoor_outdoor = "Outdoor"; }
+        if (Game1.currentLocation.IsOutdoors) { indoor_outdoor = "Outdoor"; } // May be able to use e.NewLocation
         else { indoor_outdoor = "Indoor"; }
+
+        // maternity_load and aerobics_load could possible be combined
         void maternity_load(string name, string option)
         {
             if (string.Equals(option, "both", StringComparison.OrdinalIgnoreCase))
@@ -160,6 +169,21 @@ internal sealed class ModEntry : Mod
             else if (string.Equals(option, "characters", StringComparison.OrdinalIgnoreCase))
                 Imgs2Load.Add($"Characters/{name}", Path.Combine("assets", "Characters", name, $"{name}_Maternity"));
         }
+        void aerobics_load(string name, string option)
+        {
+            string aero = "Aerobics";
+            if (string.Equals(name, "Jodi", StringComparison.OrdinalIgnoreCase)) // Jodi's sprite is named differently for some reason
+                aero = "Aerobatics";
+            if (string.Equals(option, "both", StringComparison.OrdinalIgnoreCase))
+            {
+                Imgs2Load.Add($"Portraits/{name}", Path.Combine("assets", "Portraits", name, $"{name}_Aerobics"));
+                Imgs2Load.Add($"Characters/{name}", Path.Combine("assets", "Characters", name, $"{name}_{aero}"));
+            }
+            else if (string.Equals(option, "portraits", StringComparison.OrdinalIgnoreCase))
+                Imgs2Load.Add($"Portraits/{name}", Path.Combine("assets", "Portraits", name, $"{name}_Aerobics"));
+            else if (string.Equals(option, "characters", StringComparison.OrdinalIgnoreCase))
+                Imgs2Load.Add($"Characters/{name}", Path.Combine("assets", "Characters", name, $"{name}_{aero}"));
+        }
         void standard_load(string name)
         {
             // For the top-level standard formats, Portraits is a superset of Characters so we can just use that to loop over everything.
@@ -167,7 +191,7 @@ internal sealed class ModEntry : Mod
             List<string> pound_list = new(); // 'pound' for '#'
             bool pound_available = false;
             IDictionary<string, string> valid_images = new Dictionary<string, string>(); // Ex. "Abigail_Fall_Indoor_Rain_1": "both"
-            foreach (JProperty pproperty in standard_portraits)
+            foreach (JProperty pproperty in standard_portraits) // where pproperty represents an asset (portrait property)
             {
                 try
                 {
@@ -184,13 +208,6 @@ internal sealed class ModEntry : Mod
                     if (sbool && (lbool || lval == null) && (wbool || wval == null))
                     {
                         string conval = GetStrVal(pproperty.Name, this.Config);
-                        /*// TODO: Create function for this
-                        // Since a sprite does not exist for this variation (uses default), this will set the config to "portrait" only.
-                        if (string.Equals(name, "jas", StringComparison.OrdinalIgnoreCase) &&
-                            string.Equals(sval, "spring", StringComparison.OrdinalIgnoreCase) &&
-                            string.Equals(lval, "indoor", StringComparison.OrdinalIgnoreCase) &&
-                            string.Equals(wval, "sun", StringComparison.OrdinalIgnoreCase))
-                            this.Config.GetType().GetProperty(name).SetValue(this.Config, "portrait");*/
                         if (!string.Equals(conval, "none", StringComparison.OrdinalIgnoreCase))
                             valid_images.Add(pproperty.Name, conval);
                         bool pisnull = standard_portraits[pproperty.Name]["#"] == null;
@@ -231,16 +248,26 @@ internal sealed class ModEntry : Mod
             bool sbool;
             try { sbool = preg_array.Contains(spouse.Name); }
             catch (NullReferenceException) { sbool = false; }
+            // Maternity
             if (sbool)
             { // No idea if this works!
                 var frenDict = Game1.player.friendshipData;
                 if (frenDict[name].DaysUntilBirthing > 0) // Must use this until an IsPregnant bool exists
                 {
-                    string option = GetStrVal(name, this.Config);
+                    // Before the first argument for GetStrVal was just the name variable, which I'm pretty sure would not have worked since that is just a villager name and not an asset, but I'm also not sure if this works since it's going to be awhile before I test it.
+                    string option = GetStrVal($"{name}_Maternity", this.Config); 
                     if (option != "none" && option != null)
                         maternity_load(name, option);
                 }
             }
+            // Aerobics
+            else if (e.NewLocation.Name == "SeedShop" && string.Equals(WeekDay.ToString(), "Tuesday", StringComparison.OrdinalIgnoreCase) && AerobicsArray.Contains(name))
+            {
+                string option = GetStrVal($"{name}_Aerobics", this.Config);
+                if (option != "none" && option != null)
+                    aerobics_load(name, option);
+            }
+            // Standard
             else
                 standard_load(name);
         }
